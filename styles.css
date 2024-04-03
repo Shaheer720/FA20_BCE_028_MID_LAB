@@ -1,0 +1,153 @@
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+  width: 1203px;
+  background-color: gray;
+}
+
+.header-item {
+  margin-left: 10px;
+}
+
+/* Example styles for the social media icons */
+#facebook {
+  width: 30px;
+  height: 30px;
+  background-color: blue;
+}
+
+#twitter {
+  width: 30px;
+  height: 30px;
+  background-color: lightblue;
+}
+
+#English {
+  color: white;
+}
+
+#MyPage {
+  color: white;
+}
+
+#Logout {
+  color: white;
+}
+
+#TopBar {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding: 10px;
+  width: 1203px;
+  background-color: white;
+}
+
+#Icon {
+  color: lightgray;
+}
+
+#About {
+  color: gray;
+}
+
+#Program {
+  color: gray;
+}
+
+#Join {
+  color:gray;
+}
+
+#Sponsor {
+  color: gray;
+}
+
+#News {
+  color:  gray;
+}
+
+#CC_Campign {
+  color: gray;
+}
+
+#TopBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 670px;
+  width: 1203px;
+  background-image: url('Assets/mobile_intro_bg.png');
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+#hello {
+  width: auto; /* Set width to auto to fit content */
+  margin: 10px; /* Add margin for spacing */
+  padding: 20px;
+  font-size: 44px;
+  background-image: url('Assets/text-background.jpg');
+  background-size: cover; /* Set background image size to cover */
+}
+
+#creative {
+  width: auto; /* Set width to auto to fit content */
+  margin: 10px; /* Add margin for spacing */
+  padding: 20px;
+  font-size: 50px;
+  background-image: url('Assets/text-background.jpg');
+  background-size: cover; /* Set background image size to cover */
+}
+
+#text1 {
+  width: auto; /* Set width to auto to fit content */
+  margin: 10px; /* Add margin for spacing */
+  padding: 20px;
+  font-weight: 700;
+}
+
+#timing {
+  width: auto; /* Set width to auto to fit content */
+  margin: 10px; /* Add margin for spacing */
+  padding: 20px;
+}
+
+#MainProgram {
+  background-image: url('Assets/wp8529160.png');
+  width: 1202px;
+  height: 489px;
+}
+
+#Lecture {
+  background-color: white;
+
+}
+
+#CCExhibition {
+
+}
+
+#fourm {
+
+}
+
+#Workshop {
+
+}
+
+#CCIgnite {
+
+}
